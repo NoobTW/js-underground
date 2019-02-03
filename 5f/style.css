@@ -1,0 +1,198 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #F0F0F0;
+}
+
+#root{
+	margin: 0 auto;
+}
+
+.p{
+	width: 1280px;
+	margin: 0 auto;
+	padding: 40px 85px;
+}
+
+h1{
+	font-size: 40px;
+	margin: 0;
+}
+
+select {
+	line-height: 56px;
+	font-size: 16px;
+	height: 56px;
+	width: 350px;
+	border: 3px solid #000;
+	padding: 0 20px;
+	font-weight: 700px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.block-title{
+	vertical-align: top;
+	width: 350px;
+}
+
+.block-example{
+	vertical-align: top;
+	text-align: center;
+	width: 760px;
+}
+
+.example{
+	text-align: center;
+	border-collapse: collapse;
+	margin-left: 20px;
+}
+
+.example th, .example td{
+	height: 54px;
+	width: 120px;
+	border: 3px solid #000;
+	background: white;
+}
+
+.level1{
+	background: #95F084 !important;
+}
+
+.level2{
+	background: #FFE695 !important;
+}
+
+.level3{
+	background: #FFAF6A !important;
+}
+
+.level4{
+	background: #FF5757 !important;
+}
+
+.level5{
+	background: #9777FF !important;
+}
+
+.level6{
+	background: #AD1774 !important;
+}
+
+.title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h2{
+	font-size: 35px;
+}
+
+.dotdotdot{
+	font-size: 20px;
+}
+
+div.box{
+	width: 350px;
+	border: 3px solid #000;
+	height: 97px;
+	cursor: pointer;
+}
+
+div.name{
+	font-size: 36px;
+	font-weight: 700;
+	width: 190px;
+	display: inline-block;
+	text-align: center;
+	height: 91px;
+	line-height: 91px;
+	vertical-align: top;
+	background: white;
+}
+
+div.value{
+	font-size: 36px;
+	font-weight: 700;
+	border-left: 3px solid #000;
+	width: 154px;
+	display: inline-block;
+	text-align: center;
+	height: 91px;
+	line-height: 91px;
+	vertical-align: top;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+}
+
+ul{
+	margin-top: -4px;
+	border: 3px solid #000;
+	/* border-top: 0; */
+	padding: 0 30px;
+	background: #fff;
+}
+
+ul li {
+	list-style: none;
+	padding: 15px 0;
+	font-size: 24px;
+	font-weight: 700;
+	border-bottom: 1px solid #000;
+	position: relative;
+}
+
+ul li:last-child{
+	border-bottom: 0;
+}
+
+.small{
+	display: inline;
+	font-size: 16px;
+}
+
+.station-value{
+	position: absolute;
+	font-size: 24px;
+	line-height: 24px;
+	right: 0px;
+	top: 24px;
+}
+
+footer{
+	/* display: absolute; */
+	width: 100%;
+	background: #000000;
+	color: #fff;
+	position: absolute;
+	padding: 4px 0;
+	/* bottom: 0;
+	left: 0; */
+}
+
+footer .left{
+	padding-left: 85px;
+}
+
+footer .copyright{
+	position: absolute;
+	top: 4px;
+	right: 45px;
+}
