@@ -118,7 +118,7 @@ class Game extends React.Component {
 				if (this.state.time_ >= 20) {
 					score += 1;
 				} else {
-					score += 2;
+					score += 5;
 				}
 				this.setState({
 					score,
