@@ -1,0 +1,201 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #FF9D00;
+}
+
+.main{
+	text-align: center;
+	align-items: space-between;
+}
+
+.main h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main .sixty{
+	font-size: 240px;
+	font-weight: 800;
+}
+
+.main .seconds{
+	font-size: 96px;
+	text-align: left;
+	position: relative;
+	text-transform: uppercase;
+	line-height: 100px;
+}
+
+.main .operator{
+	font-size: 44px;
+	position: absolute;
+	right: 0;
+	top: 25px;
+	text-decoration: underline;
+	border-bottom: 4px solid #fff;
+	color: #fff;
+	line-height: 52px;
+}
+
+.start{
+	font-size: 36px;
+	color: #ff9d00;
+	font-weight: 700;
+	width: 350px;
+	height: 58px;
+	background: #000;
+	margin: 10vh auto;
+	cursor: pointer;
+}
+
+.score{
+	font-size: 112px;
+	font-weight: 800;
+}
+
+.desc{
+	font-size: 24px;
+	color: #fff;
+	font-style: italic;
+	font-weight: 200;
+}
+
+.final{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title{
+	text-transform: uppercase;
+	text-align: center;
+	border: 5px solid #fff;
+	color: #fff;
+	font-weight: 700;
+	padding: 5px;
+	margin: 0 auto;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.final .final-text{
+	font-size: 56px;
+	font-weight: 700;
+}
+
+.final .final-text-wrapper{
+	display: inline-block;
+	position: relative;
+}
+
+.b-right::before, .b-left::before{
+	width: 50px;
+	height: 8px;
+	content: ' ';
+	position: absolute;
+	top: 28px;
+	left: -75px;
+	background: white;
+	display: block;
+}
+
+.b-right::before{
+	left: auto;
+	right: -75px;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10vh;
+	position: relative;
+	height: 50vh;
+}
+
+.score-wrapper{
+	position: absolute;
+	left: 0;
+	top: 4rem;
+}
+
+.s, .n {
+	font-size: 44px;
+	padding: .5rem;
+	font-weight: 800;
+	display: inline-block;
+	line-height: 50px;
+	vertical-align: middle
+}
+
+
+.s {
+	background: white;
+	color: #FF9D00;
+	font-size: 30px;
+}
+
+
+.time{
+	font-style: italic;
+	font-weight: 800;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	font-size: 96px;
+	letter-spacing: 4px;
+}
+
+.topic{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 112px;
+	font-weight: 800;
+	text-align: center;
+	width: 100%;
+}
+
+.topic .num, .topic .op, .topic .answer{
+	display: inline-block;
+	margin: 0 1rem;
+	vertical-align: middle;
+}
+
+.topic .op {
+	color: white;
+}
+
+.topic .answer {
+	background: #fff;
+	width: 255px;
+	height: 131px;
+	line-height: 131px;
+}
+
+.input{
+	margin: 0;
+	height: 112px;
+	font-size: 112px;
+	width: 200px;
+	border: 0;
+	outline: 0;
+	text-align: center;
+}
+
+.clue{
+	font-size: 24px;
+	font-weight: 200;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	font-style: italic;
+}
