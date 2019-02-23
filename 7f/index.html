@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<title>畫版</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="button" id="save">
+				<i class="fas fa-save"></i> SAVE
+			</div>
+			<div class="button" id="clearAll">
+				<i class="fas fa-eraser"></i> CLEAR ALL
+			</div>
+			<div class="button" id="undo">
+				<i class="fas fa-undo"></i> UNDO
+			</div>
+			<div class="button" id="redo">
+				<i class="fas fa-redo"></i> REDO
+			</div>
+			<div class="header-hide">
+				<i class="fas fa-angle-up"></i>
+			</div>
+		</header>
+		<canvas id="canvas" width="1000" height="800"></canvas>
+		<footer>
+			<div class="widgets">
+				<i class="fas fa-2x fa-paint-brush" id="brush"></i>
+				<div class="size">
+					SIZE:
+					<input type="number" min="1" max="100" id="size" value="10" autocomplete="off"> PX
+				</div>
+
+				COLOR:
+				<div class="colors">
+					<div class="color color1"></div>
+					<div class="color color2">✓</div>
+					<div class="color color3"></div>
+					<div class="color color4"></div>
+					<div class="color color5"></div>
+				</div>
+			</div>
+			<div class="footer-hide">
+				<i class="fas fa-angle-down"></i>
+			</div>
+		</footer>
+		<div id="position"></div>
+	</div>
+	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+	<script src="./all.js"></script>
+</body>
+</html>

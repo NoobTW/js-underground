@@ -11,6 +11,8 @@
 	- [解決 AJAX 沒辦法取得 CORS（跨網域存取）資料的問題](https://noob.tw/js-cors/)
 - [6F 60 秒算數遊戲](https://noobtw.github.io/js-underground/6f)
 	- 文章待補
+- [7F 畫版](https://noobtw.github.io/js-underground/7f)
+	- 文章待補
 
 ## About
 [About](https://www.facebook.com/hexschool/photos/a.610345345781449/1230158937133417/?type=3&permPage=1)
